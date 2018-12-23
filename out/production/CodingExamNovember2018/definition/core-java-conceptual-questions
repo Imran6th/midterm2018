@@ -1,12 +1,48 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
+A.Is the language to write computer programs including applications,utilities and systems programs.
 What jdk contains or composed of and define each components?
-A.
+A.Contents of the JDK
+  General summary of the files and directories in the JDK. For details on the files and directories, see the File Structure section of the Java SE documentation for your platform.
+  Development Tools
+  (In the bin/ subdirectory) Tools and utilities that will help you develop, execute, debug, and document programs written in the Java programming language. For further information, see the tools documentation.
+
+  Runtime Environment
+  (In the jre/ subdirectory) An implementation of the Java Runtime Environment (JRE) for use by the JDK. The JRE includes a Java Virtual Machine (JVM™), class libraries, and other files that support the execution of programs written in the Java programming language.
+
+  Additional Libraries
+  (In the lib/ subdirectory) Additional class libraries and support files required by the development tools.
+
+  Java DB
+  (In the db/ subdirectory) Java DB, Oracle's distribution of the Apache Derby relational database. For further information, see the documentation.
+
+  C header Files
+  (In the include/ subdirectory) Header files that support native-code programming using the Java Native Interface, the JVM Tool Interface, and other functionality of the Java platform.
+
+  Source Code
+  (In src.zip) Java programming language source files for all classes that make up the Java core API (that is, sources files for the java.*, javax.* and some org.* packages, but not for com.sun.* packages). This source code is provided for informational purposes only, to help developers learn and use the Java programming language. These files do not include platform-specific implementation code and cannot be used to rebuild the class libraries. To extract these file, use any common zip utility. Or, you may use the Jar utility in the JDK's bin/ directory:
+
+  jar xvf src.zip
+
+  JavaFx Tools
+  Various tools specific to JavaFX are included.
+
+  JavaFX packaging tool
+  bin/javafxpackager.exe
+  Documentation for JavaFX packager
+  man/man1/javafxpackager.1 [Mac OS X, Linux]
+  man/ja_JP.UTF-8/man1/javafxpackager.1 [Linux]
+  JavaFX packager ant tasks
+  lib/ant-javafx.jar
+  JavaFX doclet for javadoc
+  lib/javafx-doclet.jar
+  JavaFX support jar for JMX
+  lib/javafx-mx.jar
 What is IDE?
-A.
+A.A Java IDE (for Integrated Development Environment) is a software application which enables users to more easily write and debug Java programs. Many IDEs provide features like syntax highlighting and code completion, which help the user to code more easily.
 What are the IDEs available in the market to support java?
+A.Netbeans,Eclipse,Intellij,Android Studio,Enide Studio,Bluej,jEdit,jGrasp,Jsource,JDeveloper,Drjava.
 Explain the entire java life cycle.
 what is class?
 What is object?
