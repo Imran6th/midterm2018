@@ -89,7 +89,7 @@ public class ConnectToSqlDB {
             connectToSqlDatabase();
             ps = connect.prepareStatement("DROP TABLE IF EXISTS `"+tableName+"`;");
             ps.executeUpdate();
-            ps = connect.prepareStatement("CREATE TABLE `"+tableName+"` (`ID` int(11) NOT NULL AUTO_INCREMENT,`SortingNumbers` bigint(20) DEFAULT NULL,  PRIMARY KEY (`ID`) );");
+            ps = connect.prepareStatement("CREATE TABLE `"+tableName+"` (`ID` int(11) NOT NULL AUTO_INCREMENT,`"+ columnName +"` int(20) DEFAULT NULL,  PRIMARY KEY (`ID`) );");
             ps.executeUpdate();
             for(int n=0; n<ArrayData.length; n++){
                 ps = connect.prepareStatement("INSERT INTO "+tableName+" ( "+columnName+" ) VALUES(?)");
@@ -186,7 +186,7 @@ public class ConnectToSqlDB {
         User user = null;
         try{
             Connection conn = connectToSqlDatabase();
-            String query = "SELECT * FROM STUDENT";
+            String query = "SELECT * FROM Students";
             // create the java statement
             Statement st = conn.createStatement();
             // execute the query, and get a java resultset
@@ -194,11 +194,11 @@ public class ConnectToSqlDB {
             // iterate through the java resultset
             while (rs.next())
             {
+                String name = rs.getString("stName");
                 String id = rs.getString("stID");
-                String name = rs.getString("stname");
                 String dob = rs.getString("stDOB");
                 //System.out.format("%s, %s\n", name, id);
-                user = new User(id,name, dob);
+                user = new User(name,id, dob);
                 list.add(user);
 
             }

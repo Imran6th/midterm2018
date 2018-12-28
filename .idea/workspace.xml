@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31b5026c-d3cc-4ba3-9ce7-c43334c5b859" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/json/parser/NewsDataModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingExamNovember2018/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExamNovember2018/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingExamNovember2018/design/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExamNovember2018/design/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingExamNovember2018/design/EmployeeInfo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExamNovember2018/design/EmployeeInfo$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingExamNovember2018/design/EmployeeInfo$DateConversion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExamNovember2018/design/EmployeeInfo$DateConversion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingExamNovember2018/design/EmployeeInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExamNovember2018/design/EmployeeInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingExamNovember2018/design/FortuneEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExamNovember2018/design/FortuneEmployee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingExamNovember2018/design/UnitTestingEmployeeInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExamNovember2018/design/UnitTestingEmployeeInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingExamNovember2018/json/parser/HelperClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingExamNovember2018/json/parser/JsonReaderUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExamNovember2018/json/parser/JsonReaderUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/EmployeeInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/FortuneEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/FortuneEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/UnitTestingEmployeeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/UnitTestingEmployeeInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/json/parser/CnnAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/json/parser/CnnAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/json/parser/HelperClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/json/parser/JsonReaderUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/json/parser/JsonReaderUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/databases/ConnectToSqlDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/databases/ConnectToSqlDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secret.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/secret.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,19 +30,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/design/Employee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-              <folding>
-                <element signature="e#946#947#0" expanded="true" />
-                <element signature="e#1034#1035#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/design/FortuneEmployee.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-176">
@@ -81,14 +53,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/json/parser/JsonReaderUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1152">
-              <caret line="73" column="1" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
+            <state relative-caret-position="64">
+              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/databases/ConnectToSqlDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#4240#4248#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/secret.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -132,15 +122,6 @@
                 <element signature="e#1865#1866#0" expanded="true" />
                 <element signature="e#1903#1904#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/design/KhamarBari.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -203,7 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/math/problems/MakePyramid.java" />
         <option value="$PROJECT_DIR$/src/math/problems/Factorial.java" />
         <option value="$PROJECT_DIR$/src/math/problems/FindMissingNumber.java" />
         <option value="$PROJECT_DIR$/src/math/problems/Fibonacci.java" />
@@ -227,7 +207,6 @@
         <option value="$PROJECT_DIR$/src/parser/XmlReader.java" />
         <option value="$PROJECT_DIR$/src/data/self-driving-car" />
         <option value="$PROJECT_DIR$/src/databases/ConnectToMongoDB.java" />
-        <option value="$PROJECT_DIR$/src/databases/ConnectToSqlDB.java" />
         <option value="$PROJECT_DIR$/src/databases/UnitTestConnectDB.java" />
         <option value="$PROJECT_DIR$/src/algorithm/Numbers.java" />
         <option value="$PROJECT_DIR$/src/algorithm/UnitTestSorting.java" />
@@ -254,6 +233,8 @@
         <option value="$PROJECT_DIR$/src/json/parser/Employee.java" />
         <option value="$PROJECT_DIR$/src/json/parser/JsonReaderUtil.java" />
         <option value="$PROJECT_DIR$/src/json/parser/NewsDataModel.java" />
+        <option value="$PROJECT_DIR$/src/databases/ConnectToSqlDB.java" />
+        <option value="$PROJECT_DIR$/src/secret.properties" />
       </list>
     </option>
   </component>
@@ -301,6 +282,12 @@
               <item name="MidtermNovember2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="MidtermNovember2018" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="databases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MidtermNovember2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MidtermNovember2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="design" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -319,7 +306,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545958951193" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545960806203" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/mysql-connector-java-8.0.13/mysql-connector-java-8.0.13/mysql-connector-java-8.0.13.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -344,7 +331,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JsonReaderUtil">
+  <component name="RunManager" selected="Application.ConnectToMongoDB">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -365,13 +352,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CsvReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codelab.status.CsvReader" />
+    <configuration name="ConnectToMongoDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="databases.ConnectToMongoDB" />
       <module name="CodingExamNovember2018" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codelab.status.*" />
+          <option name="PATTERN" value="databases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -379,13 +366,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FortuneEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="design.FortuneEmployee" />
+    <configuration name="ConnectToSqlDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="databases.ConnectToSqlDB" />
       <module name="CodingExamNovember2018" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="design.*" />
+          <option name="PATTERN" value="databases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -452,18 +439,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.JsonReaderUtil" />
-      <item itemvalue="Application.CsvReader" />
       <item itemvalue="Application.UnitTestingEmployeeInfo" />
-      <item itemvalue="Application.FortuneEmployee" />
       <item itemvalue="Application.CnnAPI" />
+      <item itemvalue="Application.ConnectToSqlDB" />
+      <item itemvalue="Application.ConnectToMongoDB" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConnectToMongoDB" />
+        <item itemvalue="Application.ConnectToSqlDB" />
         <item itemvalue="Application.JsonReaderUtil" />
         <item itemvalue="Application.CnnAPI" />
         <item itemvalue="Application.UnitTestingEmployeeInfo" />
-        <item itemvalue="Application.FortuneEmployee" />
-        <item itemvalue="Application.CsvReader" />
       </list>
     </recent_temporary>
   </component>
@@ -480,12 +467,12 @@
       <workItem from="1545583378172" duration="9547000" />
       <workItem from="1545695882905" duration="3033000" />
       <workItem from="1545858579719" duration="17579000" />
-      <workItem from="1545951025531" duration="5586000" />
+      <workItem from="1545951025531" duration="7350000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35745000" />
+    <option name="totallyTimeSpent" value="37509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -565,13 +552,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/math/problems/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/math/problems/FindLowestDifference.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
@@ -836,13 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/databases/ConnectToSqlDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="218" column="1" selection-start-line="218" selection-start-column="1" selection-end-line="218" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/design/KhabarBariRestaurant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
@@ -1063,10 +1036,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/json/parser/JsonReaderUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="73" column="1" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
+        <state relative-caret-position="64">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/secret.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/databases/ConnectToSqlDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#4240#4248#0" expanded="true" />
           </folding>
         </state>
       </provider>
